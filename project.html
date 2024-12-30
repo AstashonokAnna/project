@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            h1, h2{
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .header {
+                background-color: #f1f1f1;
+                padding: 10px;
+                display:flex;
+                justify-content: space-between;
+            }
+            
+
+            .main_information {
+                display:flex;
+                padding: 10px;
+                justify-content: space-between;
+            }
+            .points {
+                flex-basis: 33%;
+                margin-right: 20px;
+                border: 2px solid black;
+                border-radius: 20px;
+                text-align: center;
+                font-size: 20px;
+            }
+            .bold_text{
+                font-weight: bold;
+            }
+            .developers{
+                display: flex;
+                flex-direction: column;
+                list-style-type: none;
+                width:30%;
+                border: 2px solid black;
+                border-radius: 20px;
+            }
+
+            p{
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .devs_names{
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .left_part{
+                width:60%;
+            }
+            
+            .photos{
+                display:flex;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+
+            img{
+                width:30%;
+            }
+
+            .zagolovok{
+                flex-direction: row;
+                display: block;
+            }
+
+            ul{
+                text-align: right;
+                font:bold
+            }
+
+            li{
+                list-style-type: none;
+            }
+
+            .header p{
+                display: inline-block;
+            }
+            .about p{
+                margin-right:30px;
+                
+            }
+
+            .about_font{
+                font-size: 25px;
+                font:bold;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1 style="text-align: center;">Our Project</h1>
+        <div class="page">
+            <header class="header">
+                <div class="title">
+                <h2>Concole calculator</h2>
+                </div>
+                <div class="about">
+                    <p class="about_font">Version 1.0</p>
+                    <p class="about_font">Starting: 30.11.2024</p>
+                    <p class="about_font">End: 30.12.2024</p>
+                </div>
+            </header>
+
+            <main class="main_information">
+            <div class="left_part">
+                <div class="points">
+                    <p><span class="bold_text">Обучение и практика.</span>Калькуляторы могут использоваться в образовательных целях для обучения математике,
+                             арифметике и другим дисциплинам. Они помогают пользователям практиковаться в вычислениях и развивать навыки.</p>
+                </div>
+                <div class="points">
+                    <p><span class="bold_text">Разработка навыков программирования.</span>Создание калькулятора может быть отличным проектом для 
+                    начинающих программистов, 
+                    помогая им изучать основы программирования, работу с пользовательским вводом, обработку ошибок и алгоритмы.</p>
+                </div>
+                <div class="points">
+                    <p><span class="bold_text">Повышение производительности.</span>Разделение задач между участниками команды ускоряет процесс разработки.
+                             Вместо того чтобы одному человеку справляться с 
+                            большим объемом работы, каждый может сосредоточиться на своей части проекта, что позволяет быстрее достигать результатов.</p>
+                </div>
+            </div>
+                <div class="developers">
+                    <h3 style="text-align:center">Names of developers</h3> 
+                    <p class="devs_names">Асташонок Анна</p>
+                    <p class="devs_names">Павлов Владислав</p>
+                    <p class="devs_names">Писарик Егор</p>
+                    <p class="devs_names">Сенюкович Сергей</p>
+                </div>
+            </main>
+            <div><h2 style="text-align:center">Test of our programm</h2> </div>
+            <div class="photos">
+                <img src="images/sum.jpg" alt="photo1" class="img1">
+                <img src="images/sin.jpg" alt="photo2" class="img2">
+                <img src="images/different_function.jpg" alt="photo3" class="img3">
+            </div>
+        </div>
+    </body>
+</html>
